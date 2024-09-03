@@ -7,6 +7,7 @@
 - [設定動画](#設定動画)
 - [前準備](#前準備)
 - [使い方](#使い方)
+- [おまけ(Claunch 導入)](#Claunch)
 
 ## はじめに
 
@@ -15,7 +16,7 @@
 なお、初回導入には後述の[前準備](#前準備)でひと手間かかります
 
 目玉はテキストのハイライト機能、そのうちハイライトの色も指定可能になる予定。  
-使用の際は[Claunch](http://hp.vector.co.jp/authors/VA018351/claunch.html)との併用で、以下のようにスクリプトを呼び出すことを強く推奨
+使用の際は[Claunch](https://ss1.xrea.com/pyonkichi.g1.xrea.com/claunch.html)との併用で、以下のようにスクリプトを呼び出すことを強く推奨
 
 ![Claunchでスクリプトなど呼び出し](./img/claunch.png)
 
@@ -124,3 +125,26 @@ git clone https://github.com/NakGummy/Tools
 範囲 -> `1-2`, `1,2,3,5-7`, `99`  
 サイズ -> `a4portrait`, `a3landscape`, `usletterlandscape`  
 ワード -> `撤去`, `▲`, `よつば`
+
+## Claunch
+
+### Claunch 導入
+
+> https://ss1.xrea.com/pyonkichi.g1.xrea.com/claunch.html
+
+64bit インストーラ版をダウンロード、インストール  
+おそらくセキュリティソフトが反応するが、false positive なのでその場合はセキュリティソフトウェアから許可して再度ダウンロードインストール
+
+### おすすめ設定
+
+キーボード
+![ホットキー](./img/claunch_hotkey.png)
+
+エッジ
+![エッジ](./img/claunch_edge.png)
+
+### スキン（見た目）変更
+
+`C:\Program Files\CLaunch\Skins`  
+に Claunch 公式ページから飛べる各スキン配布サイトでダウンロードしたものを展開せずに zip のままで配置する  
+Claunch 再起動後タスクトレイの Claunch アイコンを右クリック > スキンから変更可能
