@@ -137,10 +137,10 @@ git clone https://github.com/NakGummy/Tools
 
 ### おすすめ設定
 
-キーボード
+キーボード  
 ![ホットキー](./img/claunch_hotkey.png)
 
-エッジ
+エッジ  
 ![エッジ](./img/claunch_edge.png)
 
 ### スキン（見た目）変更
