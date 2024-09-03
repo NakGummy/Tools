@@ -98,7 +98,7 @@ venv は使いません！
 7. `ゴミ.ps1`がダブルクリックで黒い画面が一瞬出れば成功  
    `ゴミ.ps1`を削除して終わり
 
-### Powershell(Execution)
+### Powershell(Execution Policy)
 
 1. Win メニューに powershell と入力
 2. 出てきたうち、管理者として実行を選択し  
