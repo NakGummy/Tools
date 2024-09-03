@@ -1,5 +1,7 @@
 Write-Host 'PDFMagic - TopBlank'
 Write-Host 'cpdfを使用して入力pdfの1ページ目に指定サイズの白紙ページを追加します'
+Write-Host "`n"
+
 
 $src = Read-Host '入力PDFファイルのパスを入力してください（右クリックまたはShift+右クリックからコピーできます） -> '
 $size = Read-Host '出力pdfのサイズを (e.g. a4portrait, a4landscape, uslegalportrait, usletterlandscape) ->'

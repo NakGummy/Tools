@@ -1,5 +1,6 @@
 Write-Host 'PDFMagic - ExtractPages'
 Write-Host 'cpdfを使用して入力pdfから指定ページを抜き出します'
+Write-Host "`n"
 
 $src = Read-Host '入力PDFファイルのパスを入力してください（右クリックまたはShift+右クリックからコピーできます） -> '
 $dst = Read-Host '出力PDFファイルのパスを入力してください（入力パスと同じでも可） -> '
